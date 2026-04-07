@@ -1,5 +1,5 @@
 import React from "react";
-import "./ScoreView.css";
+import "./scoreView.css";
 const ScoreView = (props) => {
   return (
     <div className={`score-view-${props.leading ? "leading":""}`}>
