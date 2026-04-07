@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ScoreView from "./ScoreView";
+import ScoreView from "./scoreView";
 import "./ScoreKeeper.css";
 const ScoreKeeper = () => {
   const [teamOneScore, setTeamOneScore] = useState(0);
