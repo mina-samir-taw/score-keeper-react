@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ScoreView from "./scoreView";
-import "./ScoreKeeper.css";
+import ScoreView from "./scoreView.jsx";
+import "./scoreKeeper.css";
 const ScoreKeeper = () => {
   const [teamOneScore, setTeamOneScore] = useState(0);
   const [teamTwoScore, setTeamTwoScore] = useState(0);
