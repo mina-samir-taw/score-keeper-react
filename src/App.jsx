@@ -1,5 +1,5 @@
 import React from "react";
-import ScoreKeeper from "./ScoreKeeper";
+import ScoreKeeper from "./scoreKeeper";
 import "./App.css";
 const App = () => {
   return <ScoreKeeper />
