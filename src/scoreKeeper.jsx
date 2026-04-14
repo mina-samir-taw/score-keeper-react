@@ -15,16 +15,39 @@ const ScoreKeeper = () => {
   const winner =
     teamOneScore === 10 ? "Team One" : teamTwoScore === 10 ? "Team Two" : null;
   const teams = [
+<<<<<<< HEAD
     {teamName : "TeamOne",score:teamOneScore},
     {teamName : "TeamTwo",score:teamTwoScore}
     ];
   const maxScoreValue = Math.max(teamOneScore,teamTwoScore);
+=======
+    {teamName : "TeamOne", score:teamOneScore},
+    {teamName : "TeamTwo", score:teamTwoScore}
+  ];
+  const maxScoreValue = Math.max(teamOneScore, teamTwoScore);
+>>>>>>> e558bd8 (feat: add arrays and improve leading logic)
   return (
     <div className="score-keeper-container">
       <h1 className="score-keeper-heading">Score Keeper</h1>
       {teams.map((team,index) => (
+<<<<<<< HEAD
       <ScoreView key={index} {...team} leading={team.score === maxScoreValue && Math.max(teamOneScore,teamTwoScore) !==0} />
       ))}
+=======
+        <ScoreView key={index} {...team} leading={team.score === maxScoreValue && Math.max(teamOneScore,teamTwoScore) !==0}/>
+      ))}
+      
+      {/* <ScoreView
+        teamName="Team One"
+        score={teamOneScore}
+        leading={teamOneScore > teamTwoScore}
+      />
+      <ScoreView
+        teamName="Team Two"
+        score={teamTwoScore}
+        leading={teamOneScore < teamTwoScore}
+      /> */}
+>>>>>>> e558bd8 (feat: add arrays and improve leading logic)
       <button
         className="score-keeper-button"
         onClick={teamOneScored}
