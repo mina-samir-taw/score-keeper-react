@@ -32,7 +32,7 @@
     font-size: 1em;
     margin-top: 10px;
   }
-  .reset-buttoan:hover {
+  .reset-button:hover {
     background-color: darkred;
     cursor: pointer;
   }
